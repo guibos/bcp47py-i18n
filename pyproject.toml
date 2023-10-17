@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bcp47py-i18n"
+version = "0.1.0"
+description = ""
+authors = ["Guillermo Ferrer Bosque <22233599+guibos@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "bcp47py_i18n"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
